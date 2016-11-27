@@ -1,0 +1,45 @@
+@import "compass";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 980px;
+    margin:0 auto;
+    margin-top: 80px;
+}
+
+h2{
+    margin: 0px;
+    border: 1px solid #DADADA;
+    background: #F9F9F9;
+    padding: 20px;
+    border-bottom: 0px;
+    max-width: 400px;
+    font-size: 18px;
+    position: relative;
+    bottom: -1px;
+}
+
+.graph-container{
+    padding: 20px;
+    border: 1px solid #DADADA;
+    background: #F9F9F9;
+    margin-bottom:20px;
+    .graph{
+        width: 100%;
+        height:auto;
+        overflow: hidden;
+        div{
+            width: 20px;
+            background: #327C7E;
+            display: inline-block;
+            margin-right:2px;
+        }
+    }
+    .graph-controls{
+        padding: 20px;
+    }
+}
